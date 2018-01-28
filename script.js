@@ -12,7 +12,9 @@ function soundboardButton(fileName) {
   document.body.appendChild(x);
 }
 
-var files = ["ohhh","short breath","teleported","whohoho","no laugh","dying","how did that happen","ran into a wall","very very fast"]; // put audio files here
+var files = ["ohhh","short breath","teleported","whohoho","no laugh","dying","how did that happen",
+"ran into a wall","very very fast","wwwhat","waiwaiwait","replay through steam","no listen","i have nothing",
+"nothing against"]; // put audio files here
 
 window.onload = function() {
   for (i in files) {
